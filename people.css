@@ -1,0 +1,55 @@
+.zmones {background-color: yellow;
+		width: 160px;}
+
+header nav, header nav ul li, header nav ul {display:inline-block;
+}
+
+header {text-align: center
+}
+
+header nav ul li{margin:0px 10px
+}
+
+header nav ul li a {text-decoration:none;
+					padding-bottom:10px;
+					text-transform:uppercase;
+					font-family: calibri;
+					font-weight: 700;
+					color: black;
+}
+					
+
+.subscribe {font-weight: 700;
+	text-transform: uppercase;
+	text-align: right;
+	font-family: calibri;
+	color:#ff4da6;
+	cursor:pointer;
+
+	display:inline-block;
+
+}
+
+.subscribe:hover {color:#cc0066
+}
+
+header nav ul li a:hover {color:#33adff;
+						border-bottom: 5px solid #33adff
+
+}
+
+.paveikslas {height:180px;
+	text-align: center;
+}
+
+p img {float: right;
+	margin:1em
+}
+
+video {float: left;
+		margin-right:2em;}
+
+
+.clearfix {overflow: auto;
+
+}
