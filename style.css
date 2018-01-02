@@ -1,62 +1,12 @@
-body {
-    font-family: 'News Cycle', sans-serif;
-    font-size: 16px;
-    padding: 20px;
-    background-color: #e6e6e6;
-    font-family: sans-serif; 
+img { width: 100% }
+
+.navbar-brand img {
+	width: 60px;
 }
 
-h1 {
-    color:#0974b3;
-    margin:20px;
-}
-
-img {
-    max-width:150px;
-    float: left;
-    margin:1em
-}
-.gyvenimas {
-    color:#666;
-    font-size:20px;
-    margin:20px 20px 30px 20px;
-}
-
-.newton {
-    width:900px;
-    border-top: 10px solid #0974b3;
-    margin:30px;
-    float:left;
-    background-color: white;
-    padding-bottom: 50px;
-}
-
-.kiti {
-    width:422px;
-    float: left;
-    border-top: 10px solid #0974b3;
-    margin:30px;
-    background-color: white;
-    padding-bottom: 50px;
-}
-
-.kiti:nth-of-type(1n) {
-    margin-right: 30px;
-
-/*
-    Pilko teksto spalva
-    #666;
-
-    Bloko viršutinio border ir h1 spalva:
-    #0974b3
-
-*/
-
-
-
-/* Fix float left issues */
-.clearfix::after {
-    display: block;
-    content: "";
-    clear: both;
+.jumbotron {
+	background-image: url("https://i.pinimg.com/originals/31/3a/11/313a11c3625de05566b0e959a561bf1f.jpg");
+	text-align: center;
+	background-size: initial;
+	color: white;
 }
